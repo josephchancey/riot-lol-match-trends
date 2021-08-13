@@ -19,6 +19,7 @@ The first, and most obvious thing to check for this hypothesis, is how many time
 
 ### Master Elo
 ![master_win_avg](Images/master_elo_win_sum.png)
+
 Blue won a total of 53041 matches.
 Red won a total of 54084 matches.
 The difference is 1043 - in favor of the Red team.
@@ -26,8 +27,10 @@ Percentage of wins for blue is: 0.495%
 Percentage of wins for red is: 0.505%
 
 
+
 ### Grand Master Elo
 ![gmaster_win_avg](Images/grandmaster_elo_win_sum.png)
+
 Blue won a total of 32659 matches.
 Red won a total of 33237 matches.
 The difference is 578 - in favor of the Red team.
@@ -36,6 +39,7 @@ Percentage of wins for red is: 0.504%
 
 ### Challenger Master Elo
 ![challenger_win_avg](Images/challenger_elo_win_sum.png)
+
 Blue won a total of 13454 matches.
 Red won a total of 13450 matches.
 The difference is 4 - in favor of the Blue team.
