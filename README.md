@@ -1,7 +1,12 @@
 # riot-lol-match-trends
-Analyzing League of Legends game data to find trends.
 
-## Hypothesis | The map in League of Legends is one-sided, in favor of the blue side.
+Code: Notebooks/LoL Trend Analysis.ipynb
+
+Reference: [Kaggle Dataset by Minyong Shin](https://www.kaggle.com/gyejr95/league-of-legends-challenger-ranked-games2020)
+
+
+## Hypothesis
+## The map in League of Legends is one-sided, in favor of the blue side.
 
 How did I come to this hypothesis? 
 I have been playing League of Legends on and off for more than six years. In that time, I often felt that the map was slightly in favor of the blue team due to the placement of the HUD and the layout of the map. The blue team has a favorable position when coming to contest the largest obective in the game, Baron Nashor. Not only this, but the placement of the HUD at the bottom center of the screen forces the Red team player to play with their camera un-fixed on their champion in order to ensure it is not blocking their enemy. If someone is not used to playing with their camera like this, or opts not to un-fix their camera and play with the slight vision block, I believe this map impact the viewable win percentages in the data we're about to review. Let's do this!
@@ -74,6 +79,8 @@ Please view the jupyter notebook + notebook report files in 'Notebooks' folder. 
 
 # Conclusion
 
-There was no statistical signifiance between one side winning more than the other. The means are extremely close to one another, and the frequencey off statistically significant winning events are also extremely close and within a margin of error. Whilst this dataset cannot speak to the issue of the HUD being in the way, red did win more than blue within the Master and Grand Master rankings. In Challenger, blue had 4 more matches won over red. There is a noticable decrease in Red's margin of total won matches over blue as you go up in Rank. Though, this is likely due to the limited size of my data. The dataset for Master is larger than Grand Master and Challenger. And the data for Grand Master is larger than the data for Challenger. As stated before, there is no statistical signifiance between one side winning more than the other. What DOES matter is objectives. Objectives in the game have the highest statistically significant correlation to a win than any other variable.
+There was no statistical signifiance between one side winning more than the other. The means are extremely close to one another, and the frequencey of statistically significant winning events are also extremely close, and within a margin of error. Whilst this dataset cannot speak to the issue of the HUD being in the way, red did win more than blue within the Master and Grand Master rankings. In Challenger, blue had 4 more matches won over red. There is a noticable decrease in Red's margin of total won matches over blue as you go up in Rank. What DOES matter is objectives. Objectives in the game have the highest statistically significant correlation to a win than any other variable. If blue takes structural objectives first in these ranks, their odds of winning are marginally higher than red's. Red's odds of winning are marginally higher than blue's if red takes dragon or baron first within these three ranks. 
 
-Thus, my hypothesis was proven wrong by my analysis!
+I conclude that blue does win more games than red if blue takes a structural objective first within the limits of the ranks this dataset includes. I can not say with confidence that the map is 'one-sided' per-se. What is apparent to me is the masterful work Riot has done in balancing the game. The margins are incredibly narrow. With a different dataset, I would like to further explore blue and red's win chances after taking first objectives. More can be revealed this way, and could allow me to make recommendations towards team balance. 
+
+Thus, my hypothesis was proven wrong by my analysis.
